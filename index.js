@@ -5,7 +5,7 @@ var prefix = "+";
 
 const warns = JSON.parse(fs.readFileSync('./warns.json'))
 
-client.login(process.env.token);
+client.login(process.env.TOKEN);
 
 client.on('ready', function(){
     client.user.setActivity("Etre Dev", {type: "PLAYING"})
